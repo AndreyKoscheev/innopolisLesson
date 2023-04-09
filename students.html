@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230409160709">
+    <title>Students</title>
+    <link rel="icon" href="../img/icons8-дэдпул.svg" type="image/svg+xml">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"> 
+    <a href="/" class="header__logo"><img src="img/logo.svg" alt="логотип"></a>
+    <nav class="header__menu menu">
+        <div class="menu__body">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link ">Главная</a></li>
+                <li><a href="students.html" class="menu__link _active">Студенты</a></li>
+                <li><a href="about.html" class="menu__link">О курсе</a></li>
+                <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+            </ul>                    
+        </div>            
+    </nav>
+    <a href="#" class="header__button btn js-popup-btn">Войти</a>
+    <button class="icon-menu"><span></span></button>   
+</header>
+        <main>
+            <section class="students">
+                <div class="students__wrapper">
+                    <h2 class="students__title">Студенты потока 08.02.2020</h2>
+                    <div class="students__body">
+                        <a href="about-me.html" class="students__item">
+                            <div class="students__photo"></div>
+                            <div class="students__name">Василий Иванов</div>
+                        </a>
+                        <a href="about-me.html" class="students__item">
+                            <div class="students__photo"><span class="students__status">Новичок</span></div>
+                            <div class="students__name">Мария 
+                                Александрова</div>
+                        </a>
+                        <a href="about-me.html" class="students__item">
+                            <div class="students__photo"></div>
+                            <div class="students__name">Мария 
+                                Александрова</div>
+                        </a>
+                        <a href="about-me.html" class="students__item">
+                            <div class="students__photo"></div>
+                            <div class="students__name">Василий Иванов</div>
+                        </a>
+                        <a href="about-me.html" class="students__item">
+                            <div class="students__photo"></div>
+                            <div class="students__name">Василий Иванов</div>
+                        </a>
+                    </div>
+                </div>              
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__copy">2023 © учебный центр </div>
+</footer>
+        <div id="popup" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <div class="popup__title">Войти на сайт</div>
+            <form  class="popup__form">
+                <input class="popup__input" placeholder="Логин" type="text">
+                <input class="popup__input" placeholder="Пароль" type="password">
+                <button type="reset" class="popup__button btn btn_blue">Войти</button>
+            </form>
+            <button class="popup__close"></button>
+        </div>
+    </div>
+</div>
+        <script src="js/app.min.js?_v=20230409160709"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230409160709">
+    <title>Main</title>
+    <link rel="icon" href="../img/icons8-дэдпул.svg" type="image/svg+xml">
+</head>
+  <body>
+    <div class="wrapper">
+      <header class="header"> 
+    <a href="/" class="header__logo"><img src="img/logo.svg" alt="логотип"></a>
+    <nav class="header__menu menu">
+        <div class="menu__body">
+            <ul class="menu__list">
+                <li><a href="index.html" class="menu__link">Главная</a></li>
+                <li><a href="students.html" class="menu__link">Студенты</a></li>
+                <li><a href="about.html" class="menu__link">О курсе</a></li>
+                <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+            </ul>                    
+        </div>            
+    </nav>
+    <a href="#" class="header__button btn js-popup-btn">Войти</a>
+    <button class="icon-menu"><span></span></button>   
+</header>
+      <main>
+        <section class="page__main main-section">
+          <div class="main-section__container">
+            <div class="main-section__content">
+              <div class="main-section__subtitle subtitle">MY NAME IS</div>
+              <h1 class="main-section__title title">
+                Andrey<span> Koscheev</span>
+              </h1>
+              <div class="main-section__text">
+                I am developing in the direction of HTMl layout and everything
+                related to it. I have no commercial work experience. I am ready
+                to take the position of a beginner in this direction.
+              </div>
+              <div class="main-section__social social">
+                <ul class="social__list">
+                  <li>
+                    <a
+                      target="_blank"
+                      class="social__link icon-vk"
+                      href="https://vk.com/feed"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      class="social__link icon-telegram"
+                      href="https://t.me/AndreyKoscheev1993"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main-section__decor decor-main-section">
+              <div class="decor-main-section__box">
+                <div class="decor-main-section__image">
+                  <img
+                    class="decor-main-section__picture"
+                    src="img/IMG_20230131_124856_028 (1).jpg"
+                    alt="фото"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="specialized">
+          <div class="specialized__container">
+            <div class="specialized__subtitle subtitle">Skills</div>
+            <h2 class="specialized__title title">Specialized in</h2>
+            <div class="specialized__columns">
+              <div class="specialized__items">
+                <div class="specialized__item item-specialized">
+                  <div class="item-specialized__icon">
+                    <img src="img/icons8-html-5.svg" alt="" />
+                  </div>
+                  <div class="item-specialized__title">HTML</div>
+                  <div class="item-specialized__text">
+                    I use the BEM methodology ( BEM: block element modifier),
+                  </div>
+                </div>
+                <div class="specialized__item item-specialized">
+                  <div class="item-specialized__icon">
+                    <img src="img/icons8-css3.svg" alt="" />
+                  </div>
+                  <div class="item-specialized__title">CSS</div>
+                  <div class="item-specialized__text">
+                    I use the scss preprocessor in the SASS syntax.
+                  </div>
+                </div>
+                <div class="specialized__item item-specialized">
+                  <div class="item-specialized__icon">
+                    <img src="img/icons8-javascript.svg" alt="" />
+                  </div>
+                  <div class="item-specialized__title">Java Script</div>
+                  <div class="item-specialized__text">
+                    JS ( ES6 ) - basic learning. In my work I use solutions for
+                    layout in pure js: menu-burger, slider (swiper.js ), tabs,
+                    spoiler, star-rating, mouseparallaxeffect.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+    <div class="footer__copy">2023 © учебный центр </div>
+</footer> <div id="popup" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <div class="popup__title">Войти на сайт</div>
+            <form  class="popup__form">
+                <input class="popup__input" placeholder="Логин" type="text">
+                <input class="popup__input" placeholder="Пароль" type="password">
+                <button type="reset" class="popup__button btn btn_blue">Войти</button>
+            </form>
+            <button class="popup__close"></button>
+        </div>
+    </div>
+</div>
+      <script src="js/app.min.js?_v=20230409160709"></script>
+    </div>
+  </body>
+</html>
